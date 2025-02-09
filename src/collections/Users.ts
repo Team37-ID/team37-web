@@ -13,6 +13,7 @@ export const Users: CollectionConfig = {
 			name: "full-name",
 			label: "Full Name",
 			type: "text",
+      required: true,
 		},
   ],
 }
